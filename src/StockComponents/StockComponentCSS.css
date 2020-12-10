@@ -1,0 +1,27 @@
+.inventoryContainer {
+    height: 100vh;
+    width: 100vw;
+    display: inline-flex;
+    background-color: steelblue;
+}
+.inventoryContainer2 {
+    display: inline-flex;
+    flex-direction: row;
+    margin: 15px;
+    align-content: center;
+}
+.allStockContainer {
+    display: inline-flex;
+    flex-direction: row;
+    margin: 15px;
+    align-content: center;
+    }
+.stockContainer {
+    display: inline-flex;
+    width: 300px;
+    flex-direction: column;
+    border: solid 3px blue;
+    background-color: seagreen;
+    text-align: center;
+    margin: 0px 20px;
+}  

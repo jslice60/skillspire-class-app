@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import StockComponent1 from './StockComponents/StockComponent1'
+import StockComponent2 from './StockComponents/StockComponent2'
+import StockComponent3 from './StockComponents/StockComponent3'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="inventoryContainer">
+      <div className="allStockContainer">
+        <div>
+        <StockComponent1 name="Kashi"> </StockComponent1>
+        </div>
+        <div>
+        <StockComponent1 name="Cheerios"> </StockComponent1>
+        </div>
+        <div>
+        <StockComponent1 name="Fruit Loops"> </StockComponent1>
+        </div>
+        <div>
+        <StockComponent1 name="Mini Wheats"> </StockComponent1>
+        </div>
+        <div className="inventoryContainer2">
+          <div>
+          <StockComponent2 name="Ancient Oats"> </StockComponent2>
+          </div>
+          <div>
+          <StockComponent3 name="Frosty Flakes"> </StockComponent3>
+          </div>
+        </div>
+     </div>
     </div>
   );
 }
